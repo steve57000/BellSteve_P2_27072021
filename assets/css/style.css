@@ -307,7 +307,7 @@ aside {
 }
 .popular_img_footer h4 {
     margin: 0;
-    padding: 0 0 0 2%;   
+    padding: 0;   
 }
 .popular_article {
     height: 150px;
@@ -347,7 +347,7 @@ aside {
     justify-content: space-around;
 }
 .popular_img_footer p {
-    margin: 0;
+    margin: 0;  
 }
 .star_container {
     display: flex;
