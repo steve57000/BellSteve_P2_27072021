@@ -252,7 +252,7 @@ a {
     margin: 2%;
     display: flex;
     align-items: center;
-    border-radius: 15px 15px 0 0 ;
+    border-radius: 12px 12px 0 0 ;
 }
 .block_img img{
     width: 100%;    
@@ -322,7 +322,7 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15px 0 0 15px;
+    border-radius: 12px 0 0 12px;
     margin: 1% 1% 1% 1.5%;
 }
 .popular_img img{
@@ -337,7 +337,7 @@ aside {
 #popular_img_grrr img{
     width: 100%;
     border-radius: 15px 0 0 15px;
-    margin: 2% 2% 2% 2%;
+    margin: 1.7% 1.7% 1.7% 2%;
 }
 .popular_img_footer {
     padding: 1% 1% 0 2%;
