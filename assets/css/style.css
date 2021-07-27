@@ -229,7 +229,7 @@ a {
 #accommodation {
     width: 67.11%;
     background-color: #F2F2F2;
-    border-radius: 2%;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -245,7 +245,7 @@ a {
 .choice_hostel{
     width: 29.2386364%;
     background-color: #fff;
-    border-radius: 10%;
+    border-radius: 20px;
     margin: 0 0 3% 0;
     box-shadow: 2px 3px 12px 1px #d0cece;      
 }
@@ -375,7 +375,7 @@ aside {
     width: 23%;
     height: 439px;
     box-shadow: 2px 3px 12px 1px #d0cece;
-    border-radius: 6%;    
+    border-radius: 15px;    
 }
 .card_simple_img {
     height: 88%;
@@ -383,7 +383,7 @@ aside {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    border-radius: 5% 5% 0 0;   
+    border-radius: 15px 15px 0 0;   
 }
 .card_double_l_s {
     width: 23%;
@@ -396,7 +396,7 @@ aside {
     display: flex;
     flex-direction: column;
     box-shadow: 2px 3px 12px 1px #d0cece;
-    border-radius: 8% ;
+    border-radius: 15px ;
 }
 .card_double_img_l {
     width: 100% ;
@@ -405,7 +405,7 @@ aside {
     display: flex;
     align-items: center;
     padding: 5% 0 0 0;
-    border-radius: 8% 8% 0 0;
+    border-radius: 15px 15px 0 0;
         
 }
 .card_double_img_s {
@@ -426,7 +426,7 @@ aside {
 .card_double {
     width: 100%;
     height: 200px;
-    border-radius: 0 0 6% 6%;  
+    border-radius: 0 0 15px 15px;  
 }
 .card_double a {
     height: 200px;
@@ -436,7 +436,7 @@ aside {
     height: 170px;
     overflow: hidden;
     align-items: flex-start;
-    border-radius: 6% 6% 0 0;      
+    border-radius: 15px 15px 0 0;      
 }
 .card_double_img img, .card_double_img_l img, .card_double_img_s img {
     width: 100%;       
