@@ -702,7 +702,7 @@ footer {
     #activity h2 {
         padding: 0 0 0 1%;
     }
-    #activity h3 {
+    #activity h4 {
         margin: 3% 0 7% 1%;
     }
     #activity_container {
@@ -969,7 +969,7 @@ footer {
     }
     .card_double_l_s, #card_double_container {
         width: 100%;
-        height: 470px;
+        height: 460px;
         justify-content: space-around;
         margin: 0 0 5% 0;
     }
