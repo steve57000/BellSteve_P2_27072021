@@ -475,7 +475,7 @@ footer {
 /********************* Média Queries ********************/
 @media screen and (min-width: 964px) and (max-width: 1293px) {
     body {
-	width: 964px;
+	width: 100%;
     }	
     #container {
 	width: 100%;
@@ -614,7 +614,7 @@ footer {
 
 @media screen and (min-width: 429px) and (max-width: 963px) {
     body {
-	width: 429px;
+	width: 100%;
     }
     #container {
         width: 100%;
@@ -759,7 +759,7 @@ footer {
 }
 @media screen and (max-width: 428px) {
     body {
-        width: 428px;
+        width: 100%;
         height: auto;
     }
     /********* Header **********/
