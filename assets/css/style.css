@@ -575,7 +575,7 @@ footer {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: flex-end;
-        margin: 0;
+        margin: 0 0 0 2%;
     }
     .card_simple {
         width: 29.2386364%;
@@ -620,7 +620,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 429px) and (max-width: 963px) {
+@media screen and (min-width: 805px) and (max-width: 963px) {
     
     #container {
         width: 100%;
@@ -962,7 +962,7 @@ footer {
     }
     .card_simple {
         width: 100%;
-        height: 200px;
+        height: 212px;
         margin: 0 0 5% 0;
     }
     .card_simple_img {
