@@ -481,6 +481,7 @@ footer {
 @media screen and (min-width: 964px) and (max-width: 1293px) {
     #container {
 	    width: 100%;
+    }
     #filters {
         margin: 2% 2% 0 0;
     }
@@ -617,8 +618,7 @@ footer {
     
     #container {
         width: 100%;
-        margin: 0 0 0 0;
-        
+        margin: 0 0 0 0;    
     }
     ul {
         width: 35%;
