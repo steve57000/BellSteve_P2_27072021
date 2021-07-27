@@ -272,7 +272,7 @@ a {
     margin: 1% 0 3% 6%;
 }
 .footer_img h4, .footer_img p {
-    margin: 1%;
+    margin: 0 0 0 2%;
 }
 #footer_accommodation {
     padding: 0 0 4% 4%;
@@ -306,7 +306,8 @@ aside {
     padding: 0 0 2% 0;
 }
 .popular_img_footer h4 {
-    margin: 0;   
+    margin: 0;
+    padding: 0;   
 }
 .popular_article {
     height: 150px;
@@ -367,6 +368,8 @@ aside {
 #activity_container h3 {
     margin: 4% 0 7% 5%;
 }
+#activity_container h4 {
+    padding: 0 0 0 2%;
 .card_simple {
     width: 23%;
     height: 439px;
