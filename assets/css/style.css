@@ -269,10 +269,10 @@ a {
     color: #F2F2F2;
 }
 .footer_img {
-    margin: 3% 0 3% 6%;
+    margin: 1% 0 3% 6%;
 }
-.footer_img h3, .footer_img p {
-    margin: 2%;
+.footer_img h4, .footer_img p {
+    margin: 1%;
 }
 #footer_accommodation {
     padding: 0 0 4% 4%;
@@ -305,7 +305,7 @@ aside {
     margin: 9% 0 1% 0;
     padding: 0 0 2% 0;
 }
-.popular_img_footer h3 {
+.popular_img_footer h4 {
     margin: 0;   
 }
 .popular_article {
