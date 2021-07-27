@@ -85,7 +85,6 @@ a {
     text-decoration: none;
     color: #333;
 }
-
 #block_search {
     width: 26%;
     height: 39px;
@@ -240,14 +239,14 @@ a {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.choice_hostel{
+.choice_hostel {
     width: 29.2386364%;
     background-color: #fff;
     border-radius: 10%;
     margin: 0 0 3% 0;
     box-shadow: 2px 3px 12px 1px #d0cece;      
 }
-.block_img{
+.block_img {
     max-height: 120px;
     overflow: hidden;
     margin: 2%;
@@ -258,7 +257,7 @@ a {
 .block_img img{
     width: 100%;    
 }
-.content_star{
+.content_star {
     display: flex;
     margin: 0 0 0 2%;
 }
@@ -333,8 +332,7 @@ aside {
     height: 149px;
     width: 38%;
     display: flex;
-    align-items: stretch;
-    
+    align-items: stretch;   
 }
 #popular_img_grrr img{
     width: 100%;
@@ -403,8 +401,7 @@ aside {
     display: flex;
     align-items: center;
     padding: 5% 0 0 0;
-    border-radius: 15px 15px 0 0;
-        
+    border-radius: 15px 15px 0 0;        
 }
 .card_double_img_s {
     width: 100% ;
@@ -446,7 +443,6 @@ footer {
     background-color: #F2F2F2;
     margin: 5% 0 0 0;   
 }
-
 #footer_container {
     width: 100%;
     height: 200px;
@@ -455,7 +451,6 @@ footer {
     justify-content: flex-end;
     align-items: center;    
 }
-
 .footer_block {
     width: 32.5%;
     height: 108px;
@@ -479,8 +474,11 @@ footer {
 }
 /********************* Média Queries ********************/
 @media screen and (min-width: 964px) and (max-width: 1293px) {
+    body {
+	width: 964px;
+    }	
     #container {
-	    width: 100%;
+	width: 100%;
     }
     #filters {
         margin: 2% 2% 0 0;
@@ -615,7 +613,9 @@ footer {
 }
 
 @media screen and (min-width: 429px) and (max-width: 963px) {
-    
+    body {
+	width: 429px;
+    }
     #container {
         width: 100%;
         margin: 0 0 0 0;    
@@ -759,7 +759,7 @@ footer {
 }
 @media screen and (max-width: 428px) {
     body {
-        width: 100%;
+        width: 428px;
         height: auto;
     }
     /********* Header **********/
