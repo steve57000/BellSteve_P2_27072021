@@ -6,9 +6,7 @@ body {
     width: 100%;
     max-width: 1440px;
 	font-family: 'font1', sans-serif;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 0 auto;
 }
 #container {
     width: 93.333%;
@@ -245,7 +243,7 @@ a {
 .choice_hostel{
     width: 29.2386364%;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 10%;
     margin: 0 0 3% 0;
     box-shadow: 2px 3px 12px 1px #d0cece;      
 }
@@ -627,13 +625,10 @@ footer {
         width: 35%;
     }
     .filters_row {
-        width: 35%;
-        margin: 0 1% 0 1%;
-        justify-content: flex-start;
+        width: 40%;
+        justify-content: space-around;
     }
-    .border_filters {
-        margin-left: 1%;
-    }
+    
     /********** Groupe Hébergements **********/
     #group_accommodation {
         display: flex;
@@ -853,9 +848,7 @@ footer {
         align-items: flex-start;
         padding-left: 2%;
     }
-    #filters h3 {
-        width: 96%;
-    }
+    
     #block_search {
         width: 96%;
     }
