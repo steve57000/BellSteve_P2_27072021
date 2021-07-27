@@ -613,7 +613,7 @@ footer {
     }
 }
 /********************* Média Queries ********************/
-@media screen and (min-width: 429px) and (max-width: 963px) {
+@media screen and (min-width: 768px) and (max-width: 963px) {
     body {
         width: 963px;
         height: auto;
@@ -751,7 +751,7 @@ footer {
         margin: 0 0 8% 0;
     }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 767px) {
     
     /********* Header **********/
     header {
