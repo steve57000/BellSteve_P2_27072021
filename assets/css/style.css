@@ -1103,6 +1103,10 @@ footer {
         width: 35%;
         margin: 0 0 0 2%;
     }
+    #background_geolocation_icon {
+	width: 2%;
+	height: 19px;
+    }
     /********** Groupe Hhébergements *********/
     #group_accommodation {
         display: flex;
