@@ -101,7 +101,7 @@ a {
     height: 42px;
     display: flex;
     justify-content: center;
-    border-radius: 15px 0 0 15px;
+    border-radius: 10px 0 0 10px;
     position: absolute;
     margin: -0.4% 0 0 -4%;
 }
@@ -130,7 +130,7 @@ a {
     width: 15%;
     height: 42px;
     position: absolute;
-    border-radius: 27%;
+    border-radius: 10px;
     background-color: #0065FC;
     color: #fff;
     border-style: none;
@@ -628,7 +628,11 @@ footer {
         width: 40%;
         justify-content: space-around;
     }
-    
+    #border_icons_information {
+        width: 2%;
+        height: 19px;
+        border-radius: 11px;
+    }
     /********** Groupe Hébergements **********/
     #group_accommodation {
         display: flex;
@@ -876,7 +880,9 @@ footer {
         align-items: baseline;
     }
     #border_icons_information {
-        width: 7%;
+        width: 6%;
+        height: 17px;
+        border-radius: 11px;
     }
     /********** Groupe Hébergements **********/
     #group_accommodation {
