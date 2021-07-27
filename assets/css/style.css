@@ -307,7 +307,7 @@ aside {
 }
 .popular_img_footer h4 {
     margin: 0;
-    padding: 0;   
+    padding: 0 0 0 2%;   
 }
 .popular_article {
     height: 150px;
@@ -334,9 +334,6 @@ aside {
     width: 38%;
     display: flex;
     align-items: stretch;   
-}
-#popular_img_grrr h4 {
-    padding: 0 0 0 2%;
 }
 #popular_img_grrr img{
     width: 100%;
