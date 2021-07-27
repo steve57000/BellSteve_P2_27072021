@@ -620,7 +620,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 805px) and (max-width: 963px) {
+@media screen and (min-width: 766px) and (max-width: 963px) {
     
     #container {
         width: 100%;
