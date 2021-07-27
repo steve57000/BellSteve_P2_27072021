@@ -877,6 +877,7 @@ footer {
     }
     #border_icons_information {
         width: 7%;
+	border-radius: 11px;
     }
     /********** Groupe Hébergements **********/
     #group_accommodation {
