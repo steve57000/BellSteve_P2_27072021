@@ -34,20 +34,20 @@ h1 a {
 h2 {
     margin: 0 ;
 }
-#header_nav {
+nav {
     display: flex;
     height: 100%;
     width: 100%;
     justify-content: flex-end;
 }
-ul {
+nav ul {
     width: 28%;
     height: 88%;
     display: flex;
     margin: 0;
     padding: 0;
 }
-ul li {
+nav ul li {
     width: 100%;
     list-style-type: none;
     text-decoration: none;
@@ -55,7 +55,7 @@ ul li {
     align-items: center;
     justify-content: center;
 }
-ul li a {
+nav ul li a {
     width: 100%;
     height: 100%;
     display: flex;
@@ -338,10 +338,10 @@ aside {
 #popular_img_grrr img{
     width: 100%;
     border-radius: 15px 0 0 15px;
-    margin: 1.7% 1.7% 1.7% 2%;
+    margin: 3% 0 3% 3%;
 }
 .popular_img_footer {
-    padding: 1% 1% 0 2%;
+    padding: 0 0 0 3%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -457,29 +457,41 @@ footer {
 }
 .footer_block {
     width: 32.5%;
-    height: 108px;
+    height: 100px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 .footer_block h3 {
-    margin: 0 0 5% 0;
+    margin: 0 0 2% 0;
 }
 .footer_block ul {
     width: 100%;
-    flex-direction: column;  
+    margin: 0;
+    padding: 0;
+    list-style-type: none;  
 }
 .footer_block a {
     height: 26px;
     justify-content: flex-start;
 }
-
+.footer_block p {
+    margin: 0 0 1% 0;
+}
 .footer_block a:hover{
     color: #0065FC;
 }
 /********************* Média Queries ********************/
 @media screen and (min-width: 964px) and (max-width: 1293px) {	
     #container {
-	width: 100%;
+	width: 99%;
+    }
+    #blue {
+        width: 12%;
+    }
+    nav ul {
+        width: 40%;
+        margin: 0 2% 0 0;
     }
     #filters {
         margin: 2% 2% 0 0;
@@ -620,21 +632,34 @@ footer {
     }
 }
 
-@media screen and (min-width: 766px) and (max-width: 963px) {
+@media screen and (min-width: 768px) and (max-width: 963px) {
     
     #container {
-        width: 100%;
+        width: 99%;
         margin: 0;    
     }
-    ul {
-        width: 35%;
+    header {
+        margin: 0 0 4% 0;
+    }
+    nav ul {
+        width: 44%;
+    }
+    #blue {
+        width: 16%;
+    }
+    #filters {
+        flex-wrap: wrap;
     }
     .filters_row {
-        width: 40%;
-        justify-content: space-around;
+        width: 100%;
+        height: 57px;
+        justify-content: flex-start;
+    }
+    .border_filters {
+        margin: 0 2% 0 0;
     }
     #block_search {
-	width: 37%;
+	    width: 37%;
     }
     #border_icons_information {
         width: 2%;
@@ -695,22 +720,20 @@ footer {
     }
     .choice_hostel {
         width: 44%;
-        height: 260px;
+        height: 235px;
     }
     .block_img {
         max-height: 155px;
     }
     /********** Activités **********/
     #activity {
+        height: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
     #activity h2 {
         padding: 0 0 0 1%;
-    }
-    #activity h4 {
-        margin: 3% 0 7% 1%;
     }
     #activity_container {
         width: 100%;
@@ -719,53 +742,63 @@ footer {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: flex-end;
+    }
+    #activity_container h4 {
         margin: 0;
     }
     .card_simple {
-        width: 29.2386364%;
-        height: 200px;
-        margin: 0 1% 1% 0;
+        width: 100%;
+        height: 280px;
+        margin: 0 0 4% 0;
+    }
+    .card_simple h4 {
+        padding: 2% 0 0 2%;
     }
     .card_simple_img {
-        max-height: 151px;
+        height: 230px;
         overflow: hidden;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         border-radius: 15px 15px 0 0;
     }
     .card_simple_img img {
         width: 100%;
     }
     .card_double_l_s, #card_double_container {
-        width: 69%;
+        width: 100%;
         height: 200px;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        margin: 0 0 2% 0;
+        justify-content: space-between;
+        margin: 0 0 4% 0;
     }
+    
     .card_double_l_s a, .card_double {
-        width: 45%;
-        margin: 0 4% 0 0 ;
+        width: 48%;
     }
     .card_double_img_l, .card_double_img_s, .card_double_img {
-        min-height: 150px;
+        height: 158px;
         overflow: hidden;
         border-radius: 15px 15px 0 0;
         padding: 0;
+    }
+    .card_double_l_s h4, .card_double h4 {
+        padding: 3% 0 3% 5%;
     }
     #align_items_center {
         display: flex;
         align-items: center;
     }
     /********** footer **********/
+    
     .footer_block h3 {
         margin: 0 0 8% 0;
     }
 }
 @media screen and (max-width: 428px) {
     #container {
-        width: 100%;
+        width: 99%;
     }
     /********* Header **********/
     header {
@@ -789,28 +822,28 @@ footer {
         width: 21%;
         height: 28%;
     }
-    #header_nav {
+    nav {
         height: 50px;
         order: 1;
         padding: 2% 0 0 0;
     }
-    ul {
+    nav ul {
         width: 100%;
         height: 100%;
         display: flex;
         flex-wrap: nowrap;
         align-items: center;      
     }
-    li {
+    nav li {
         height: 100%;
         display: flex;
         height: 100%;
         border-bottom: 2px solid #F2F2F2;
     }
-    #header_nav li:hover {
+    nav li:hover {
        border-bottom: 2px solid #0065FC;   
     }
-    ul li a {
+    nav ul li a {
         height: auto;
     }
     .border_focus:hover {
