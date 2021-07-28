@@ -898,14 +898,19 @@ footer {
     }
     #background_geolocation_icon {
         width: 12%;
-        margin: -0.2% 0 0 -2%;
+        margin: 0;
     }
-    
+    #background_geolocation_icon svg {
+        width: 34%;
+    }
+    #input {
+        padding-left: 20%;
+    }
     .border_icons, .border_icons_l {
         left: -2%;
     }
     .filters_row {
-        width: 98%;
+        width: 82%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
