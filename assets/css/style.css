@@ -5,7 +5,7 @@
 body {
     width: 100%;
     max-width: 1440px;
-	font-family: 'font1', sans-serif;
+    font-family: 'font1', sans-serif;
     margin: 0 auto 0 auto;
 }
 #container {
@@ -707,7 +707,10 @@ footer {
         margin: 0 2% 0 0;
     }
     #block_search {
-	    width: 37%;
+	width: 37%;
+    }
+    #background_geolocation_icon {
+        height: 40px;
     }
     #border_icons_information {
         width: 2%;
@@ -946,6 +949,7 @@ footer {
     }
     #background_geolocation_icon {
         width: 12%;
+	height: 40px;
         margin: 0;
     }
     #background_geolocation_icon svg {
