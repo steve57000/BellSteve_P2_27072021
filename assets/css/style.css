@@ -809,6 +809,9 @@ footer {
     }
 }
 @media screen and (max-device-width: 428px) {
+    body {
+        max-width: 428px;
+    }
     #container {
         width: 99%;
     }
