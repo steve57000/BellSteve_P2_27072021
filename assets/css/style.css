@@ -40,6 +40,51 @@ nav {
     width: 100%;
     justify-content: flex-end;
 }
+@font-face {
+    font-family: 'font1';
+    src: url(./font/Raleway-VariableFont_wght.ttf);
+}
+body {
+    width: 100%;
+    max-width: 1440px;
+	font-family: 'font1', sans-serif;
+    margin: 0 auto 0 auto;
+}
+#container {
+    width: 93.333%;
+    margin-left: auto;
+    margin-right: auto;
+}
+strong {
+    font-weight: bold;
+}
+/********** Header ***********/
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2% 0 2%;   
+}
+
+h1 {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    padding: 1% 0 0 0;
+}
+h1 a {
+    display: flex;
+}
+h2 {
+    margin: 0 ;
+}
+nav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+}
 nav ul {
     width: 28%;
     height: 88%;
@@ -144,10 +189,10 @@ a {
     margin: 2% 0 0 0;
 }
 .filters_row {
-    width: 30%;
+    width: 27%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .choice_filters {
     display: flex;
@@ -159,7 +204,7 @@ a {
 .border_filters {
     position: relative;
     height: 37px;
-    margin-left: 3%;
+    margin-right: 2%;
     padding: 0 20px 0 40px;
     display: flex;
     align-items: center;
@@ -484,7 +529,10 @@ footer {
 /********************* Média Queries ********************/
 @media screen and (min-width: 964px) and (max-width: 1293px) {	
     #container {
-	width: 99%;
+	width: 100%;
+    }
+    header {
+        margin: 0 0 4% 0;
     }
     #blue {
         width: 12%;
@@ -578,7 +626,7 @@ footer {
         flex-wrap: wrap;
     }
     #activity h2 {
-        padding: 0 0 0 1%;
+        padding: 0 0 2% 3%;
     }
     #activity_container {
         width: 100%;
@@ -635,7 +683,7 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 963px) {
     
     #container {
-        width: 99%;
+        width: 100%;
         margin: 0;    
     }
     header {
@@ -910,7 +958,7 @@ footer {
         left: -2%;
     }
     .filters_row {
-        width: 82%;
+        width: 92%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
