@@ -675,6 +675,9 @@ footer {
         height: 19px;
         border-radius: 11px;
     }
+    #search {
+	height: 40px;
+    }
     /********** Groupe Hébergements **********/
     #group_accommodation {
         display: flex;
