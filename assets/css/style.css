@@ -354,10 +354,7 @@ aside {
     align-items:flex-end;
 }
 /*********** Activités **********/
-#activity {
-    width: 100%;
-    height: 500px;
-}
+
 #activity_container {
     display: flex;
     align-items: flex-start;
@@ -792,12 +789,9 @@ footer {
     body {
         max-width: 428px;
     }
-    #container {
-        width: 99%;
-    }
+    
     /********* Header **********/
     header {
-        width: 100%;
         height: auto;
         display: flex;
         flex-wrap: wrap;
@@ -927,25 +921,21 @@ footer {
     }
     /********** Groupe Hébergements **********/
     #group_accommodation {
-        width: 100%;
         display: flex;
         flex-direction: column-reverse; 
         align-items: center;  
     }
     /********** Hébergements **********/
     #accommodation {
-        width: 96%;
+        width: 92%;
         height: auto;
         background: none;
     }
     #accommodation_header {
+	width: 98%;
         margin: 11% 0 2% 1%;
         padding: 0;
-    }
-    #accommodation_choice {
-        flex-direction: column;
-        width: 100%;
-        height: auto;
+	justify-content: flex-start;
     }
     .choice_hostel {
         width: 100%;
@@ -954,7 +944,6 @@ footer {
     /********** Populaires **********/
     aside {
         width: 100%;
-        height: 580px;
         border-radius: 0;
     }
     #popular_choice {
