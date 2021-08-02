@@ -513,45 +513,39 @@ footer {
     /********** Populaires *********/
     aside {
         width: 100%;
-        height: 300px;
+        height: 324px;
         margin: 0 0 5% 0;
         display: flex;
     }
-    #popular {
-        width: 100%;
-        height: 300px;
-        display: flex;
-        justify-content: flex-start;
-  
-    }
     #popular_header {
         width: 97%;
-        padding: 0 0 2% 0;
     }
     #popular_choice {
         width: 100%;
-        display: flex;
+	height: auto;
         justify-content: flex-end;
+	flex-direction: row;
     }
     #popular_choice article {
         width: 33%;
-        margin: 0;
-        padding: 0;
     }
     .popular_article {
         width: 95%;
-        height: 180px;
+        height: 96%;
     }
     .popular_img {
-        width: 34%;
-        height: 172px;
+        width: 42%;
+        height: 96%;
+    }
+    .popular_img img {
+	height: 100%;
     }
     #popular_img_grrr {
-        width: 38%;
-        height: 143px;
+        width: 42%;
+        height: 100%;
 	display: flex;
         align-items: stretch;
-        margin: 1% 2% 2% 1%;    
+        margin: 0 2% 1% 0;    
     }
     #popular_img_grrr img {
     	width: 100%;
