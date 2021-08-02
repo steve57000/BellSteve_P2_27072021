@@ -233,7 +233,11 @@ a {
     justify-content: center;
 }
 #accommodation_header {
-    padding: 4% 0 3% 4%;
+    height: 84px;
+    width: 44%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 #accommodation_choice {
     display: flex;
@@ -282,11 +286,9 @@ a {
 aside {
     width: 30.44%;
     background-color: #F2F2F2;
-    padding: 2.5% 0 0 0;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 #popular {
     display: flex;
@@ -295,16 +297,17 @@ aside {
 }
 #popular_header {
     width: 85%;
+    height: 84px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 #popular_choice {
     width: 86%;
-}
-#popular_choice article {
-    margin: 9% 0 1% 0;
-    padding: 0 0 2% 0;
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .popular_img_footer h4 {
     margin: 0;
