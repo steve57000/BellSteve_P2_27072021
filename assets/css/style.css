@@ -883,7 +883,7 @@ footer {
     }
     
     #block_search {
-        width: 96%;
+        width: 92%;
     }
     #background_geolocation_icon {
         width: 12%;
@@ -937,6 +937,9 @@ footer {
         padding: 0;
 	justify-content: flex-start;
     }
+    #footer_accommodation {
+	padding: 0;
+     }
     .choice_hostel {
         width: 100%;
         margin: 0 0 5% 0;
@@ -946,11 +949,7 @@ footer {
         width: 100%;
         border-radius: 0;
     }
-    #popular_choice {
-        width: 96%;
-    }
-    #popular_choice article {
-        margin: 0;
+    #popular_choice article {   
         padding: 0 0 4% 0;
     }
     
@@ -968,12 +967,11 @@ footer {
         justify-content: center;
     }
     #activity h2 {
-        width: 98%;
-        margin: 0 0 8% 1%;
+        width: 92%;
+        margin: 0 0 5% 0;
     }
     #activity_container {
-        width: 96%;
-        height: auto;
+        width: 92%;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: flex-end;
