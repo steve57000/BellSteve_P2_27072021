@@ -481,9 +481,7 @@ footer {
 }
 /********************* Média Queries ********************/
 @media screen and (min-width: 964px) and (max-width: 1293px) {	
-    #container {
-	width: 100%;
-    }
+   
     header {
         margin: 0 0 4% 0;
     }
@@ -629,10 +627,6 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 963px) {
     
-    #container {
-        width: 100%;
-        margin: 0;    
-    }
     header {
         margin: 0 0 4% 0;
     }
