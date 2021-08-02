@@ -3,7 +3,6 @@
     src: url(./font/Raleway-VariableFont_wght.ttf);
 }
 body {
-    width: 100%;
     max-width: 1440px;
     font-family: 'font1', sans-serif;
     margin: 0 auto 0 auto;
