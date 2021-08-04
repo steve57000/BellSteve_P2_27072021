@@ -7,6 +7,7 @@ body {
     font-family: 'font1', sans-serif;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 #container {
     width: 100%;
@@ -483,7 +484,6 @@ footer {
 /********************* Média Queries ********************/
 @media screen and (min-width: 964px) and (max-width: 1293px) {	
     #container{
-        width: 100%;
         max-width: 1293px;
     }
     header {
@@ -631,7 +631,6 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 963px) {
     #container{
-        width: 100%;
         max-width: 963px;
     }
     header {
@@ -797,7 +796,6 @@ footer {
 }
 @media screen and (max-device-width: 428px) {
     #container{
-        width: 100%;
         max-width: 428px;
     }
     
