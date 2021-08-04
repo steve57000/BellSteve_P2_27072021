@@ -2,12 +2,16 @@
     font-family: 'font1';
     src: url(./font/Raleway-VariableFont_wght.ttf);
 }
-body {
-    max-width: 1440px;
-    font-family: 'font1', sans-serif;
-    margin: 0 auto 0 auto;
-}
 
+body {
+    font-family: 'font1', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#container {
+    width: 100%;
+    max-width: 1440px;
+}
 strong {
     font-weight: bold;
 }
@@ -66,7 +70,7 @@ nav ul li a {
     align-items: flex-end;
     justify-content: center;
 }
-.border_focus:hover{
+.border_focus:hover, .border_focus:focus {
     border-top: 1px solid #0065FC;
     color:#0065FC; 
 }
@@ -478,7 +482,10 @@ footer {
 }
 /********************* Média Queries ********************/
 @media screen and (min-width: 964px) and (max-width: 1293px) {	
-   
+    #container{
+        width: 100%;
+        max-width: 1293px;
+    }
     header {
         margin: 0 0 4% 0;
     }
@@ -623,7 +630,10 @@ footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 963px) {
-    
+    #container{
+        width: 100%;
+        max-width: 963px;
+    }
     header {
         margin: 0 0 4% 0;
     }
@@ -786,7 +796,8 @@ footer {
     }
 }
 @media screen and (max-device-width: 428px) {
-    body {
+    #container{
+        width: 100%;
         max-width: 428px;
     }
     
@@ -1031,3 +1042,4 @@ footer {
         margin: 0 0 5% 0;
     }
 }
+
