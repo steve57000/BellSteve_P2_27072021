@@ -167,7 +167,7 @@ a {
     border: 0.2em solid #F2F2F2;
     border-radius: 50px ;
     cursor: pointer;
-    transition: border-color 2.7s, left 2.7s, margin-left 2.7s;
+    transition: border-color 2.7s, left 2.7s;
 }
 .border_filters:hover > .border_icons {
     left: 77%;
