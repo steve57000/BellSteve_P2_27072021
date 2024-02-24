@@ -179,9 +179,6 @@ a {
     left: 82%;
     transition-duration: 2.7s;
 }
-.border_filters:hover > .border_icons_l {
-    left: 82%;
-}
 .border_filters:hover > .choice_filters_l {
     margin-left: -15%;
 }
