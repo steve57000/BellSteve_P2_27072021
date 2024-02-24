@@ -167,13 +167,17 @@ a {
     border: 0.2em solid #F2F2F2;
     border-radius: 50px ;
     cursor: pointer;
-    transition: border-color 2.7s, left 2.7s;
 }
 .border_filters:hover > .border_icons {
     left: 77%;
+    transition-duration: 2.3s;
 }
 .border_filters:hover > .choice_filters {
     margin-left: -20%;
+}
+.border_filters:hover > .border_icons_l {
+    left: 82%;
+    transition-duration: 2.7s;
 }
 .border_filters:hover > .border_icons_l {
     left: 82%;
